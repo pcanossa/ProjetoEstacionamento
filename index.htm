@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Faster+One&family=Fredoka+One&family=Josefin+Sans:wght@100;200;300&family=Nunito:wght@200;300;400&family=Raleway:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <title>SecuryDrive Estacionamento</title>
+</head>
+<body>
+    <header>
+        <img class="img" src="/img/R.jpg" alt="">
+        <p>Security Car</p>
+    </header>
+    <div class="container cadastro">
+            <input type="text" id="nome" autocomplete="off" placeholder="Marca do Veículo" required>
+            <input type="text" id="placa" autocomplete="off" placeholder="Placa do Veículo" required>
+            <button id="cadastrar" class="cadastrar">Cadastrar Veículo</button>  
+    </div>
+    <div class="container tabela">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Veículo</th>
+                    <th>Placa</th>
+                    <th>Hora de Entrada</th>
+                    <th>A definir</th>
+                </tr>
+            </thead>    
+        </table>
+        <tbody id="patio"></tbody>
+        <script src="assets/main.js"></script>
+
+    </div>    
+</body>
+</html>

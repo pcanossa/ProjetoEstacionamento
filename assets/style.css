@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(223, 210, 184);
+    font-family: 'Josefin Sans';
+}
+img {
+    max-width: 200px
+    ;
+    border-radius: 15px;
+    border-color: rgb(63, 66, 75);
+    border: 3px solid;
+}
+header {
+    background-color: rgb(91, 91, 91);
+    padding: 20px;
+    font-family: 'Faster One';
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: row;
+    align-content:space-between center;
+    justify-items:center;
+    align-items:center;
+    justify-content:space-around;
+    padding: 30px;
+
+}
+
+.cadastro input{
+    border-radius: 3px;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    font-size: 15px;
+
+}
+
+.cadastrar {
+    border-radius: 3px;
+    border-width: 0px;
+    padding: 5px;
+    background-color: rgb(91, 91, 91);
+    color: white;
+    cursor: pointer;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.cadastrar:hover {
+    background-color: white;
+    color: rgb(91, 91, 91);
+    transition: 1px;
+}
